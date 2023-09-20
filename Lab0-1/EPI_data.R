@@ -9,7 +9,6 @@ EPI
 tf <- is.na(EPI)
 E <- EPI[!tf]
 summary(EPI)
-
 fivenum(EPI,na.rm=TRUE)
 stem(EPI)
 hist(EPI)
@@ -25,6 +24,8 @@ E <- DALY[!tf]
 summary(DALY)
 fivenum(DALY, na.rm=TRUE)
 stem(DALY)
+
+View(AIR_E)
 
 boxplot(EPI,DALY)
 qqplot(EPI, DALY)

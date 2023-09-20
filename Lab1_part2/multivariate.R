@@ -1,0 +1,16 @@
+multivariate <- read.csv("multivariate.csv")
+attach(multivariate)
+library(dplyr)
+mm <- lm(Homeowners~Immigrant)
+head(multivariate)
+help(lm)
+summary(mm)$coef
+plot(Homeowners~Immigrant)
+help(abline)
+abline(mm)
+abline(mm, col=2, lwd=3)
+newImmigrantdata <- data.frame(Immigrant =c(0,20))
+help("predict")
+mm %>% predict(newImmigrantdata)
+attributes(mm)
+mm$coefficients

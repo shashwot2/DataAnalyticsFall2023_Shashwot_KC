@@ -3,7 +3,8 @@
 #DataFiles
 Lab0-1/*.xls
 Lab0-1/*.csv
-
+Lab1_part2/*.csv
+Lab1_part2/*.xls
 # History files
 .Rhistory
 .Rapp.history
