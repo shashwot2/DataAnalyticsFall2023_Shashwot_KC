@@ -8,7 +8,7 @@ Lab1_part2/*.xls
 # History files
 .Rhistory
 .Rapp.history
-
+*.Rproj
 # Session Data files
 .RData
 .RDataTmp
